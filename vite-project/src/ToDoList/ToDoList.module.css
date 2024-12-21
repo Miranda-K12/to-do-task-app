@@ -1,0 +1,136 @@
+.myApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 446px;
+  padding-top: 53px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+}
+
+.bottomLine {
+  height: 2px;
+  background-color: white;
+}
+
+.headerTitle {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Racing Sans One';
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.note {
+  width: 32px;
+  height: 32px;
+}
+
+.noteBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.bottomLine {
+  height: 2px;
+  width: 240px;
+  background-color: white;
+}
+
+.taskInput {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  width: 826px;
+  height: 49.44px;
+  margin-top: 79px;
+  margin-bottom: 35px;
+}
+
+.taskInput input {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 24px;
+  color: #4F4F4F;
+  padding: 10px;
+}
+
+.addButton {
+  border: none;
+  outline: none;
+  background-color: #4F4F4F;
+  color: #fff;
+  width: 142.69px;
+  height: 49.44px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Racing Sans One';
+}
+
+.tasksLine {
+  width: 966px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 79.5px;
+}
+
+.addButton:hover {
+  background-color: #444;
+}
+
+.taskText {
+  width: 822px;
+  border-radius: 10px;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  width: 822px;
+  font-family: 'Inter';
+}
+
+ol li {
+  background-color: #222222;
+  border-radius: 10px;
+  font-size: 19px;
+  line-height: 23px;
+  padding-left: 18px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deleteButton {
+  display: inline-block;
+  fill: #999999;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+}
